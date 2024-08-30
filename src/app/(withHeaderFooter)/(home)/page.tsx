@@ -1,3 +1,4 @@
+import AllCoinsData from "@/Components/shared/Table/BitCoinTable";
 import { Button } from "antd";
 import React from "react";
 
@@ -11,8 +12,8 @@ const HomePage = () => {
   };
   return (
     <div className="text-3xl">
-      This is home
-      <Button> Sagor akta gay</Button>
+      {" "}
+      <AllCoinsData />
     </div>
   );
 };
