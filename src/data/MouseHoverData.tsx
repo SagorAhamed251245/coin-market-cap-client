@@ -347,7 +347,7 @@ export const communityMouseHoverData: MenuData = [
             loading="lazy"
             decoding="async"
             className="icon-style"
-            src="https://s2.coinmarketcap.com/static/cloud/img/menu/MenuCategoriesIcon.svg"
+            src="https://s2.coinmarketcap.com/static/cloud/img/menu/feed.svg"
           ></Image>
         ),
       },
@@ -362,7 +362,7 @@ export const communityMouseHoverData: MenuData = [
             loading="lazy"
             decoding="async"
             className="icon-style"
-            src="https://s2.coinmarketcap.com/static/cloud/img/menu/MenuCategoriesIcon.svg"
+            src="https://s2.coinmarketcap.com/static/cloud/img/menu/topics.svg"
           ></Image>
         ),
       },
@@ -377,7 +377,7 @@ export const communityMouseHoverData: MenuData = [
             loading="lazy"
             decoding="async"
             className="icon-style"
-            src="https://s2.coinmarketcap.com/static/cloud/img/menu/MenuCategoriesIcon.svg"
+            src="https://s2.coinmarketcap.com/static/cloud/img/menu/lives.svg"
           ></Image>
         ),
       },
@@ -392,7 +392,7 @@ export const communityMouseHoverData: MenuData = [
             loading="lazy"
             decoding="async"
             className="icon-style"
-            src="https://s2.coinmarketcap.com/static/cloud/img/menu/MenuCategoriesIcon.svg"
+            src="https://s2.coinmarketcap.com/static/cloud/img/menu/articles.svg"
           ></Image>
         ),
       },
@@ -415,7 +415,7 @@ export const productsMouseHoverData: MenuData = [
             loading="lazy"
             decoding="async"
             className="icon-style"
-            src="https://s2.coinmarketcap.com/static/cloud/img/menu/MenuCategoriesIcon.svg"
+            src="https://s2.coinmarketcap.com/static/cloud/img/menu/MenuConverterIcon.svg"
           ></Image>
         ),
       },
@@ -430,7 +430,22 @@ export const productsMouseHoverData: MenuData = [
             loading="lazy"
             decoding="async"
             className="icon-style"
-            src="https://s2.coinmarketcap.com/static/cloud/img/menu/MenuCategoriesIcon.svg"
+            src="https://s2.coinmarketcap.com/static/cloud/img/menu/MenuNewsIcon.svg"
+          ></Image>
+        ),
+      },
+      {
+        key: "CMC-Lab",
+        label: "CMC Lab",
+        icon: (
+          <Image
+            alt=""
+            width={32}
+            height={32}
+            loading="lazy"
+            decoding="async"
+            className="icon-style"
+            src="https://s2.coinmarketcap.com/static/cloud/img/menu/MenuExplorerIcon.svg"
           ></Image>
         ),
       },
@@ -445,7 +460,7 @@ export const productsMouseHoverData: MenuData = [
             loading="lazy"
             decoding="async"
             className="icon-style"
-            src="https://s2.coinmarketcap.com/static/cloud/img/menu/MenuCategoriesIcon.svg"
+            src="https://s2.coinmarketcap.com/static/cloud/img/menu/MenuTelegramBotIcon.svg"
           ></Image>
         ),
       },
@@ -460,37 +475,7 @@ export const productsMouseHoverData: MenuData = [
             loading="lazy"
             decoding="async"
             className="icon-style"
-            src="https://s2.coinmarketcap.com/static/cloud/img/menu/MenuCategoriesIcon.svg"
-          ></Image>
-        ),
-      },
-      {
-        key: "crypto-api",
-        label: "Crypto API",
-        icon: (
-          <Image
-            alt=""
-            width={32}
-            height={32}
-            loading="lazy"
-            decoding="async"
-            className="icon-style"
-            src="https://s2.coinmarketcap.com/static/cloud/img/menu/MenuCategoriesIcon.svg"
-          ></Image>
-        ),
-      },
-      {
-        key: "site-widgets",
-        label: "Site Widgets",
-        icon: (
-          <Image
-            alt=""
-            width={32}
-            height={32}
-            loading="lazy"
-            decoding="async"
-            className="icon-style"
-            src="https://s2.coinmarketcap.com/static/cloud/img/menu/MenuCategoriesIcon.svg"
+            src="https://s2.coinmarketcap.com/static/cloud/img/menu/MenuAdvertiseIcon.svg"
           ></Image>
         ),
       },
@@ -510,7 +495,7 @@ export const productsMouseHoverData: MenuData = [
             loading="lazy"
             decoding="async"
             className="icon-style"
-            src="https://s2.coinmarketcap.com/static/cloud/img/menu/MenuCategoriesIcon.svg"
+            src="https://s2.coinmarketcap.com/static/cloud/img/menu/MenuCryptoApiIcon.light.svg"
           ></Image>
         ),
       },
@@ -525,7 +510,7 @@ export const productsMouseHoverData: MenuData = [
             loading="lazy"
             decoding="async"
             className="icon-style"
-            src="https://s2.coinmarketcap.com/static/cloud/img/menu/MenuCategoriesIcon.svg"
+            src="https://s2.coinmarketcap.com/static/cloud/img/menu/MenuWidgetsIcon.light.svg"
           ></Image>
         ),
       },
@@ -545,7 +530,7 @@ export const productsMouseHoverData: MenuData = [
             loading="lazy"
             decoding="async"
             className="icon-style"
-            src="https://s2.coinmarketcap.com/static/cloud/img/menu/MenuCategoriesIcon.svg"
+            src="https://s2.coinmarketcap.com/static/cloud/img/menu/MenuAirdropsIcon.svg"
           ></Image>
         ),
       },
@@ -560,7 +545,7 @@ export const productsMouseHoverData: MenuData = [
             loading="lazy"
             decoding="async"
             className="icon-style"
-            src="https://s2.coinmarketcap.com/static/cloud/img/menu/MenuCategoriesIcon.svg"
+            src="https://s2.coinmarketcap.com/static/cloud/img/menu/MenuRewardsIcon.svg"
           ></Image>
         ),
       },
@@ -575,7 +560,7 @@ export const productsMouseHoverData: MenuData = [
             loading="lazy"
             decoding="async"
             className="icon-style"
-            src="https://s2.coinmarketcap.com/static/cloud/img/menu/MenuCategoriesIcon.svg"
+            src="https://s2.coinmarketcap.com/static/cloud/img/menu/MenuEarnCryptoIcon.svg"
           ></Image>
         ),
       },

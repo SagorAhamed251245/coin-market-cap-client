@@ -25,7 +25,7 @@ const MenuHover = ({ menuHoverData }) => {
       {menuHoverData.map((item, index) => (
         <div
           key={index}
-          className={`col-span-1 h-auto row-span-1 ${
+          className={`col-span-1 h-full row-span-1 ${
             menuHoverData.length < 3 && "border-r-0"
           } ${index === 1 || index === 0 ? "border-r" : "border-r-0"}`}
         >
