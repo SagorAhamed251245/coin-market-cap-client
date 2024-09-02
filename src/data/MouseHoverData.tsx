@@ -580,7 +580,7 @@ export const productsMouseHoverData: MenuData = [
             loading="lazy"
             decoding="async"
             className="icon-style"
-            src="https://s2.coinmarketcap.com/static/cloud/img/menu/MenuCategoriesIcon.svg"
+            src="https://s2.coinmarketcap.com/static/cloud/img/menu/MenuICOIcon.svg"
           ></Image>
         ),
       },
